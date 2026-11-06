@@ -1,0 +1,17 @@
+[general]
+name=Outdoor Point Cloud Classifier
+description=QGIS Processing tools for conservative outdoor LiDAR ground and height-based vegetation classification using PDAL.
+version=0.1.0
+qgisMinimumVersion=3.28
+author=Gunduz Osman
+email=
+about=Creates a new LAS/LAZ output using PDAL SMRF ground classification and height-above-ground vegetation classes. The input file is never modified.
+category=点云
+icon=
+experimental=True
+deprecated=False
+tags=LiDAR, point cloud, LAS, LAZ, PDAL, ground, vegetation
+homepage=https://github.com/gunduzosman/qgis-outdoor-point-cloud-classifier
+tracker=https://github.com/gunduzosman/qgis-outdoor-point-cloud-classifier/issues
+repository=https://github.com/gunduzosman/qgis-outdoor-point-cloud-classifier
+hasProcessingProvider=yes
